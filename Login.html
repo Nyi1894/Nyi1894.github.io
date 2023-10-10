@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <title>用户登陆</title>
+  <link rel="icon" href="http://img.sccnn.com/bimg/341/16652.jpg" type="image/x-icon">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background: url(http://hainan.china.com.cn/pic/2020-03/11/d35d175a-6184-4e3a-bcf9-14c6da37c39e.jpg) no-repeat center 0px fixed;
+      background-size: cover;
+      font-family: "汉仪润圆-75W",sans-serif;
+    }
+    .login{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -150px 0 0 -150px;
+      width: 300px;
+      height: 300px;
+    }
+    .login h1{
+      color: #555555;
+      text-shadow: 0px 10px 8px #CDC673;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input{
+      padding: 10px;
+      width: 100%;
+      color: white;
+      margin-bottom: 10px;
+      background-color: #555555;
+      border: 1px solid black;
+      border-radius: 5px;
+      letter-spacing: 2px;
+    }
+    form button{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #CDC673;
+      border: 1px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="headtop"></div>
+  <div class="login">
+    <h1>Login</h1>
+    <form action="" method="post">
+      <input type="text" name="user" placeholder="用户名" required="required">
+      <input type="password" name="password" placeholder="密码" required="required">
+      <button type="submit">登录</button>
+      <button type="submit" onclick="location='Enroll.html'">注册</button>
+    </form>
+  </div>
+</body>
+</html>
