@@ -11,14 +11,35 @@
   <link rel="icon" href="http://img.sccnn.com/bimg/341/16652.jpg" type="image/x-icon">
   <style>
     *{
+      /*margin: 0;*/
+      padding: 0;
+    }
+    ul{
       margin: 0;
       padding: 0;
+      background-color: #888888;
+    }
+    ul li{
+      display: inline-block;
+    }
+    li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+    li a:hover{
+      background-color: #555555;
+    }
+    aside{
+      text-align: right;
     }
     body{
       font-family: "汉仪润圆-75W",sans-serif;
     }
     h1{
-      color:#999999;
+      color:#555555;
       font-size:3em;
       font-weight:400;
     }
@@ -29,6 +50,7 @@
     }
     hr{
       width:100%;
+      color: black;
     }
   </style>
 </head>
@@ -36,51 +58,65 @@
   <div id="Background" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;opacity: 0.5;z-index: -1;">
   <img src="http://hainan.china.com.cn/pic/2020-03/11/d35d175a-6184-4e3a-bcf9-14c6da37c39e.jpg" width="100%" height="100%"/>
   </div>
-  <h1 align="center">Eason_Jin's Web</h1>
-  <p align="center">
-    <br/>这是写给金雪的网站，也是我第一次写网站<br/>
-    <br/>就是不知道自己能不能坚持下去呢<br/>
-    <br/>希望这次的第一次不是最后一次！<br/>.<hr/>
-  </p>
-  <p>
-    <br/>您可以访问下方的常用链接<br/>
-    <br/>如果你想进入百度，请点击此链接：
-    <a href="https://baidu.com" style="text-decoration: none" title="进入百度搜索引擎">百度首页</a>
-    <br/><br/>如果你想进入青岛科技大学官网，请点击此链接：
-    <a href="https://www.qust.edu.cn/" style="text-decoration: none" title="进入青岛科技大学官网">青岛科技大学</a>
-    <br/><br/>或者你想进入青岛科技大学的智慧青科的登录页面：
-    <a href="http://ipass.qust.edu.cn/tpass/login?service=http%3A%2F%2Fi.qust.edu.cn%2Ftp_up%2Fview%3Fm%3Dup" style="text-decoration: none" title="进入智慧青科的登录页面">智慧青科</a>
-    <br/><br/>如果你想进入宁夏理工学院官网，请点击该链接：
-    <a href="http://www.nxist.com/views/font/homepage.form?moduleId=41460ffa-3f52-11e7-a6e6-00ac9c2c0afa" style="text-decoration: none" title="进入宁夏理工学院官网">宁夏理工学院</a>
-    <br/><br/>或者你想进入宁夏理工学院智慧校园的登录页面：
-    <a href="http://portal.nxist.com:8080/wcsas/?moduleId=73338717-35d7-11ea-8100-005056866337" style="text-decoration: none" title="进入智慧校园官网">智慧校园</a>
-    <br/><br/>本人水平有限，只会写这一点简单的程序，还请见谅！
-  </p>
-  <p>
-    <br/>如果想看更多内容，请点击下方链接登录账号查看！<br/>
-    <a href="Login.html" style="text-decoration: none" title="点此链接进入登录页面">点此链接进入登陆程序</a>
-  </p>
-  <p>
-    <br/><br/>你可以查看我在学习HTML时所进行的样例:<br/>
-    <a href="Project%201.html" style="text-decoration: none" title="点此链接查看我的样例1">样例1</a>.<br/>
-    <a href="Project%202.html" style="text-decoration: none" title="点此链接查看我的样例2">样例2</a>.<br/>.<br/>
-  </p>
+  <header>
+    <h1>Eason_Jin's Web</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="Web%20desc.html">网页简介</a></li>
+      <li><a href="Project%201.html">样例1</a></li>
+      <li><a href="Project%202.html">样例2</a></li>
+      <li><a href="../../../Program%201/404.html">未知页面</a></li>
+      <li>
+        <div>
+          <input type="search" name="search" placeholder="请输入要搜索的内容" style="background-color: lightgrey;padding: 6px">
+          <button type="submit" name="submit" style="background-color: #555555;padding:3px">搜索</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <p>
+        <br/>您可以访问下方的常用链接<br/>
+        <br/>如果你想进入百度，请点击此链接：
+        <a href="https://baidu.com" style="text-decoration: none" title="进入百度搜索引擎">百度首页</a>
+        <br/><br/>如果你想进入青岛科技大学官网，请点击此链接：
+        <a href="https://www.qust.edu.cn/" style="text-decoration: none" title="进入青岛科技大学官网">青岛科技大学</a>
+        <br/><br/>或者你想进入青岛科技大学的智慧青科的登录页面：
+        <a href="http://ipass.qust.edu.cn/tpass/login?service=http%3A%2F%2Fi.qust.edu.cn%2Ftp_up%2Fview%3Fm%3Dup" style="text-decoration: none" title="进入智慧青科的登录页面">智慧青科</a>
+        <br/><br/>如果你想进入宁夏理工学院官网，请点击该链接：
+        <a href="http://www.nxist.com/views/font/homepage.form?moduleId=41460ffa-3f52-11e7-a6e6-00ac9c2c0afa" style="text-decoration: none" title="进入宁夏理工学院官网">宁夏理工学院</a>
+        <br/><br/>或者你想进入宁夏理工学院智慧校园的登录页面：
+        <a href="http://portal.nxist.com:8080/wcsas/?moduleId=73338717-35d7-11ea-8100-005056866337" style="text-decoration: none" title="进入智慧校园官网">智慧校园</a>
+        <br/><br/>本人水平有限，只会写这一点简单的程序，还请见谅！
+      </p>
+      <p>
+        <br/>如果想看更多内容，请点击下方链接登录账号查看！<br/>
+        <a href="Login.html" style="text-decoration: none" title="点此链接进入登录页面">点此链接进入登陆程序</a>
+      </p>
+    </article>
+  </main>
   <hr/>
-  <h2>联系我们</h2>
-  <br/>
-  <dl>
-    <dt><strong>电话/Phone</strong></dt>
-    <dd>15254833713</dd>
-    <dd>18409639575</dd>.<br/>
-    <dt><strong>邮箱/E-mail</strong></dt>
-    <dd>yang20180221@163.com</dd>
-    <dd>1792553227@qq.com</dd>.<br/>
-    <dt><strong>QQ</strong></dt>
-    <dd>2165278140</dd>
-    <dd>1792553227</dd>.<br/>
-  </dl>
-  <h3>请留下您的联系方式</h3>.<br/>
-  <input type="text" name="user" placeholder="请输入您的电子邮箱/联系电话" required="required" style="background-color:lightgrey;padding: 10px;width: 15%" >
-  <button type="submit" style="background-color:grey;padding: 8px;">提交</button>
+  <footer>
+    <h2 style="font-size: 1.5em">联系我们</h2>
+    <address>
+      <dl>
+        <dt></dt>
+        <dt><strong>电话/Phone</strong></dt>
+        <dd>15254833713</dd>
+        <dd>18409639575</dd>
+        <dt><strong>邮箱/E-mail</strong></dt>
+        <dd>yang20180221@163.com</dd>
+        <dd>1792553227@qq.com</dd>
+        <dt><strong>QQ</strong></dt>
+        <dd>2165278140</dd>
+        <dd>1792553227</dd>
+      </dl>
+    </address>
+    <h3 style="font-size: 1.5em">请留下您的联系方式</h3>
+    <input type="text" name="user" placeholder="请输入您的电子邮箱/联系电话" required="required" style="background-color:lightgrey;padding: 10px;width: 15%" >
+    <button type="submit" style="background-color:grey;padding: 8px;">提交</button>
+  </footer>
 </body>
 </html>
