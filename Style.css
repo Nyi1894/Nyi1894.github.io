@@ -1,0 +1,91 @@
+header{
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+header img{
+  display: block;
+  padding-top: 20.15px;
+  width: 100px;
+  height: 87.314px;
+}
+header h1{
+  color: #555555;
+  flex: 5;
+  text-align: center;
+  font-size: 3.5em;
+}
+main{
+  width: 90%;
+  min-width: 800px;
+  margin: auto auto auto 5%;
+  display: flex;
+}
+main p{
+  color: black;
+  font-size: 1.2em;
+}
+main aside h1{
+  color: black;
+  font-size: 1.6em;
+}
+article{
+  flex:4;
+}
+aside{
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+aside a{
+  font-size: 1.2em;
+  display: block;
+  float: left;
+  width: 100%;
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: #888888;
+}
+ul li{
+  display: inline-block;
+  font-size: 18px;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #555555;
+}
+aside{
+  text-align: right;
+}
+body{
+  font-family: "汉仪润圆-75W",sans-serif;
+}
+p{
+  color: black;
+  font-size:1.1em;
+  font-weight:100;
+}
+p a{
+  text-decoration: none;
+}
+hr{
+  width:100%;
+  color: black;
+  height: 1.5px;
+  background-color: black;
+}
+footer address{
+  margin: auto auto auto 5%;
+}
+footer address dd{
+  display: inline-flex;
+}
