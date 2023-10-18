@@ -13,7 +13,7 @@
 </head>
 <body>
   <div id="Background" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;opacity: 0.5;z-index: -1;">
-  <img src="Background-Car.png" width="100%" height="100%"/>
+  <img src="Background-Car.png" width="100%" height="100%" alt="网页背景图片"/>
   </div>
 
   <header>
@@ -29,7 +29,9 @@
       <li><a href="../../../Program%201/404.html">样例3</a></li>
       <li><a href="Login.html">登录</a></li>
       <li>
-        <input type="search" name="search" placeholder="请输入要搜索的内容" style="background-color: lightgrey;padding: 9px">
+        <label>
+          <input type="search" name="search" placeholder="请输入要搜索的内容" style="background-color: lightgrey;padding: 9px">
+        </label>
         <button type="submit" name="submit" style="background-color: #555555;padding:6px">搜索</button>
       </li>
     </ul>
@@ -80,7 +82,9 @@
       </dl>
     </address>
     <h3 style="font-size: 1.5em">请留下您的联系方式</h3>
-    <input type="text" name="user" placeholder="请输入您的电子邮箱/联系电话" required="required" style="background-color:lightgrey;padding: 10px;width: 15%" >
+    <label>
+      <input type="text" name="user" placeholder="请输入您的电子邮箱/联系电话" required="required" style="background-color:lightgrey;padding: 10px;width: 15%" >
+    </label>
     <button type="submit" style="background-color:grey;padding: 8px;">提交</button>
   </footer>
 
