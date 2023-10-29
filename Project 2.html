@@ -5,6 +5,33 @@
   <title>样例2</title>
   <link rel="stylesheet" type="text/css" href="Project%201.html">
   <link rel="icon" href="Logo.png" type="image/x-icon">
+  <style>
+    table {
+      border-collapse: collapse;
+      border: 2px solid rgb(200,200,200);
+      letter-spacing: 1px;
+      font-size: 0.8rem;
+    }
+    td, th {
+      border: 1px solid rgb(190,190,190);
+      padding: 10px 20px;
+    }
+    th {
+      background-color: rgb(235,235,235);
+    }
+    td {
+      text-align: center;
+    }
+    tr:nth-child(even) td {
+      background-color: rgb(250,250,250);
+    }
+    tr:nth-child(odd) td {
+      background-color: rgb(245,245,245);
+    }
+    caption {
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
   <div style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1">
@@ -47,5 +74,55 @@
   <bdo dir="rtl">这是一个从右往左说的话</bdo>
   <hr/>
   <a href="Education%20File/北京师范大学学前教育学考研经验分享.docx" download="北京师范大学学前教育学考研经验分享.docx">点击下载</a>
+  <br/>
+  <a href="https://i.y.qq.com/v8/playsong.html?songid=1843621#webchat_redirect">听歌</a>
+  <table>
+    <tr>
+      <th>&nbsp;</th>
+      <th>杨轩</th>
+      <th>金雪</th>
+    </tr>
+    <tr>
+      <th>拼音</th>
+      <td>yangxuan</td>
+      <td>jinxue</td>
+    </tr>
+    <tr>
+      <th>年龄</th>
+      <td>19</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>手机号</th>
+      <td>15254833713</td>
+      <td>18409639575</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th colspan="2" scope="col">个人信息</th>
+    </tr>
+    <tr>
+      <th rowspan="2" scope="row">姓名</th>
+      <td>杨轩</td>
+    </tr>
+    <tr>
+      <td>金雪</td>
+    </tr>
+    <tr>
+      <th rowspan="2" scope="row">年龄</th>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th rowspan="2" scope="row">手机号</th>
+      <td>15254833713</td>
+    </tr>
+    <tr>
+      <td>18409639575</td>
+    </tr>
+  </table>
 </body>
 </html>
